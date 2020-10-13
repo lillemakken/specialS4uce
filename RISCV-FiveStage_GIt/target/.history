@@ -1,0 +1,18 @@
+build
+.build
+./build
+compile
+test
+compile
+test
+compile
+test
+test singleTest
+test ./singleTest
+test .singleTest
+test addi
+test addi.s
+testOnly FiveStage.SingleTest
+compile
+test
+compile

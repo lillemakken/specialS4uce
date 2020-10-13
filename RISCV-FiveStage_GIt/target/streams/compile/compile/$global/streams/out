@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/EX.scala:34:24: not found: type ALU[0m
+[0m[[0m[31merror[0m] [0m[0m  val ALU = Module(new ALU).io[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -1,0 +1,15 @@
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/chiselTestRunner.scala:13:21: not found: type Tile[0m
+[0m[[0m[31merror[0m] [0m[0m  c               : Tile,[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/chiselTestRunner.scala:14:36: not found: type Tile[0m
+[0m[[0m[31merror[0m] [0m[0m  d               : PeekPokeTester[Tile],[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/chiselTestRunner.scala:173:53: not found: type Tile[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ), () => new Tile) { c =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/chiselTestRunner.scala:188:25: missing argument list for method printChiselError in object PrintUtils[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `printChiselError _` or `printChiselError(_)` instead of `printChiselError`.[0m
+[0m[[0m[31merror[0m] [0m[0m    }.toEither.left.map{printChiselError}[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
