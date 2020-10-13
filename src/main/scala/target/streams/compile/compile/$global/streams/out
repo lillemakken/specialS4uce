@@ -1,0 +1,301 @@
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:3:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:4:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.core.Input[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:6:25: illegal inheritance from final class Module[0m
+[0m[[0m[31merror[0m] [0m[0mclass IFBarrier extends Module {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:7:12: not found: value IO[0m
+[0m[[0m[31merror[0m] [0m[0m  val io = IO( new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:7:20: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m  val io = IO( new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:9:14: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m  val PCin = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:9:20: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m  val PCin = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:9:28: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m  val PCin = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:10:15: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m  val PCout = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:10:22: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m  val PCout = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:10:30: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m  val PCout = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:12:21: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m  val instruction = Output(new Instruction)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/ToplevelSignals.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/ToplevelSignals.scala:7:27: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0mclass Instruction extends Bundle(){[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:13:23: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m  val instructionIn = Input(new Instruction)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:15:15: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m  val regRd = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:15:22: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m  val regRd = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:15:30: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m  val regRd = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:21:13: not found: value RegInit[0m
+[0m[[0m[31merror[0m] [0m[0mval PCreg = RegInit(UInt(32.W), 0.U)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:21:21: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0mval PCreg = RegInit(UInt(32.W), 0.U)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:21:29: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0mval PCreg = RegInit(UInt(32.W), 0.U)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:21:35: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0mval PCreg = RegInit(UInt(32.W), 0.U)[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:33:25: illegal inheritance from final class Module[0m
+[0m[[0m[31merror[0m] [0m[0mclass IDBarrier extends Module {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:35:12: not found: value IO[0m
+[0m[[0m[31merror[0m] [0m[0m  val io = IO( new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:35:20: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m  val io = IO( new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:36:14: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m		val PCin = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:36:20: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m		val PCin = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:36:28: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val PCin = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:37:15: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m		val PCout = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:37:22: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m		val PCout = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:37:30: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val PCout = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:39:17: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m		val read1in = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:39:23: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m		val read1in = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:39:31: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val read1in = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:40:18: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m		val read1out = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:40:25: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m		val read1out = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:40:33: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val read1out = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:43:17: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m		val read2in = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:43:23: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m		val read2in = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:43:31: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val read2in = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:44:18: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m		val read2out = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:44:25: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m		val read2out = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:44:33: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val read2out = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:46:17: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m		val immOpin = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:46:23: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m		val immOpin = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:46:31: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val immOpin = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:47:18: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m		val immOpout = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:47:25: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m		val immOpout = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:47:33: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val immOpout = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:49:23: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m		val instructionin = Input(new Instruction)[0m
+[0m[[0m[31merror[0m] [0m[0m		                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:50:24: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m		val instructionout = Output(new Instruction)[0m
+[0m[[0m[31merror[0m] [0m[0m		                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:52:21: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m		val op1Selectin = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:52:27: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m		val op1Selectin = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:52:35: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val op1Selectin = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:53:22: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m		val op1Selectout = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:53:29: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m		val op1Selectout = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:53:37: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val op1Selectout = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:55:21: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m		val op2Selectin = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:55:27: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m		val op2Selectin = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:55:35: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val op2Selectin = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:56:22: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m		val op2Selectout = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:56:29: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m		val op2Selectout = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:56:37: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val op2Selectout = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:58:17: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m		val ALUopin = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:58:23: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m		val ALUopin = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:58:31: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val ALUopin = Input(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:59:18: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m		val ALUopout = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:59:25: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m		val ALUopout = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:59:33: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val ALUopout = Output(UInt(32.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:61:20: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m		val memToRegin = Input(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m		                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:61:26: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m		val memToRegin = Input(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m		                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:62:21: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m		val memToRegout = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m		                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:62:28: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m		val memToRegout = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m		                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:64:20: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m		val memWritein = Input(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m		                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:64:26: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m		val memWritein = Input(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m		                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:65:21: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m		val memWriteout = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m		                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:65:28: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m		val memWriteout = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m		                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:67:22: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m		val branchTypeIn = Input(UInt(4.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:67:28: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m		val branchTypeIn = Input(UInt(4.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:67:35: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val branchTypeIn = Input(UInt(4.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:68:23: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m		val branchTypeOut = Output(UInt(4.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:68:30: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m		val branchTypeOut = Output(UInt(4.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:68:37: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val branchTypeOut = Output(UInt(4.W))[0m
+[0m[[0m[31merror[0m] [0m[0m		                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:70:16: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m		val jumpIn = Input(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m		             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:70:22: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m		val jumpIn = Input(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:71:19: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m    val jumpOut = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:71:26: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m    val jumpOut = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:73:20: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m    val branchIn = Input(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:73:26: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m    val branchIn = Input(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:74:21: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m    val branchOut = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:74:28: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m    val branchOut = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:76:21: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m    val immTypeIn = Input(UInt(3.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:76:27: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val immTypeIn = Input(UInt(3.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:76:34: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val immTypeIn = Input(UInt(3.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:77:22: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m    val immTypeOut = Output(UInt(3.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:77:29: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val immTypeOut = Output(UInt(3.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:77:36: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val immTypeOut = Output(UInt(3.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:79:21: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m    val memReadIn = Input(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:79:27: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m    val memReadIn = Input(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/main/scala/CPU.scala:80:22: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m    val memReadOut = Output(Bool())[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m880 errors found[0m
