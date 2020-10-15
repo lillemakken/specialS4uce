@@ -2,20 +2,24 @@ package FiveStage
 import chisel3._
 import chisel3.experimental.MultiIOModule
 
+
 class InstructionFetch extends Module {
   val io = IO(
     new Bundle {
+
+	
 
       /**
         You need to add inputs and outputs here
         A good start is branch/jump address as input, and
         instruction as output.
         */
-      val jump     = Input(Bool())
-      val jumpAddr = Input(UInt(32.W))
+	    val branchDest = Input(UInt(32.W))
+	    val branchDestV = Input(Bool())
+	    val instruction = Output(new Instruction)
+      val PC = Output(UInt(32.W))
 
-      val out = Output(new IFBarrierSignals)
-
+     
       // setup/test
       val IMEMsetup = Input(new IMEMsetupSignals)
     })
@@ -29,19 +33,25 @@ class InstructionFetch extends Module {
   val instruction = Wire(new Instruction)
   instruction := IMEM.instruction.asTypeOf(new Instruction)
 
-  /**
-    Your code here
-    */
-
-  when (!io.IMEMsetup.setup) {
-    when (io.jump) {
-      PC := io.jumpAddr // jump / branch condition met
+   // PC := Mux(io.branchDestV,PC+io.branchDest,PC+4.U)
+    
+   when (!io.IMEMsetup.setup) {
+    when (io.branchDestV) {
+      PC := io.branchDest // jump branch condition met
     } .otherwise {
-      PC := PC + 4.U // nexti / branch condition not met
+      PC := PC + 4.U // next branch condition not met
     }
   }
-
-  // Outputs
-  io.out.instruction := instruction
-  io.out.PC          := PC
+  io.instruction := instruction
+  io.PC := PC
+  
+//  printf("Instruksjon fra IF er: %d\n", io.instruction)
+	
 }
+
+
+
+	
+
+
+

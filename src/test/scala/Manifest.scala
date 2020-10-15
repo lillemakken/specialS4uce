@@ -31,7 +31,7 @@ object Manifest {
     printVMfinal       = false,
     printMergedTrace   = true,
     printBinary        = false,
-    nopPadded          = nopPadded,
+    nopPadded          = false,
     breakPoints        = Nil, // not implemented
     testName           = singleTest,
     maxSteps           = 15000)
@@ -45,7 +45,7 @@ object Manifest {
     printVMfinal       = false,
     printMergedTrace   = false,
     printBinary        = false,
-    nopPadded          = nopPadded,
+    nopPadded          = false,
     breakPoints        = Nil, // not implemented
     testName           = name,
     maxSteps           = 15000)

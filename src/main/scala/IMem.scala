@@ -1,10 +1,7 @@
 package FiveStage
 import chisel3._
 import chisel3.experimental.MultiIOModule
-/**
-  When setup is enabled data is written to the instruction memory.
-  In normal operation this memory is write only (no self modifying code)
-  */
+
 /**
   When setup is enabled data is written to the instruction memory.
   In normal operation this memory is write only (no self modifying code)

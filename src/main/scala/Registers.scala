@@ -7,16 +7,12 @@ import chisel3.experimental.MultiIOModule
   When a write and read conflicts this might result in stale data.
   This caveat must be handled using a bypass.
  */
-/**
-  When a write and read conflicts this might result in stale data.
-  This caveat must be handled using a bypass.
- */
 class Registers() extends Module {
   val io = IO(
     new Bundle {
       val readAddress1 = Input(UInt(5.W))
       val readAddress2 = Input(UInt(5.W))
-      val writeEnable  = Input(Bool())
+      val writeEnable  = Input(Bool()) //Hvor skal denne verdien kobles?
       val writeAddress = Input(UInt(5.W))
       val writeData    = Input(UInt(32.W))
 
@@ -28,9 +24,7 @@ class Registers() extends Module {
       val testUpdates  = Output(new RegisterUpdates)
     })
 
-  // NOTE: Big clue for barrier setup
-  // (for sync reads, assign output to reg)
-
+//printf("Register writeEnable er: %d\n", io.writeEnable)
   /**
     Mem creates asynchronous read, synchronous write.
     In other words, reading is combinatory.
@@ -69,9 +63,11 @@ class Registers() extends Module {
     }
   }
 
+//  printf("ReadData1 er: %d, og ReadData2 er: %d\n", io.readData1, io.readData2)
 
   io.readData1 := 0.U
   io.readData2 := 0.U
   when(readAddress1 =/= 0.U){ io.readData1 := registerFile(readAddress1) }
   when(readAddress2 =/= 0.U){ io.readData2 := registerFile(readAddress2) }
+
 }

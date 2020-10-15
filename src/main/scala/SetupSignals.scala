@@ -3,8 +3,6 @@ import chisel3._
 import chisel3.core.Wire
 import chisel3.util.{ BitPat, Cat }
 
-
-
 class SetupSignals extends Bundle {
   val IMEMsignals     = new IMEMsetupSignals
   val DMEMsignals     = new DMEMsetupSignals

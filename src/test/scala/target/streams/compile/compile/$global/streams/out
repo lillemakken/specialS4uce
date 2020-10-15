@@ -1,0 +1,305 @@
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.{Matchers, FlatSpec}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:4:8: not found: object cats[0m
+[0m[[0m[31merror[0m] [0m[0mimport cats._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:5:8: not found: object cats[0m
+[0m[[0m[31merror[0m] [0m[0mimport cats.implicits._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:8:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.iotesters._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:11:8: not found: object fansi[0m
+[0m[[0m[31merror[0m] [0m[0mimport fansi.Str[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:13:8: not found: object Ops[0m
+[0m[[0m[31merror[0m] [0m[0mimport Ops._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:14:8: not found: object Data[0m
+[0m[[0m[31merror[0m] [0m[0mimport Data._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:15:8: not found: object VM[0m
+[0m[[0m[31merror[0m] [0m[0mimport VM._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:17:8: not found: object PrintUtils[0m
+[0m[[0m[31merror[0m] [0m[0mimport PrintUtils._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:18:8: not found: object LogParser[0m
+[0m[[0m[31merror[0m] [0m[0mimport LogParser._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:26:27: not found: value TestOptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val singleTestOptions = TestOptions([0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:27:5: not found: value printIfSuccessful[0m
+[0m[[0m[31merror[0m] [0m[0m    printIfSuccessful  = true,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:28:5: not found: value printErrors[0m
+[0m[[0m[31merror[0m] [0m[0m    printErrors        = true,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:29:5: not found: value printParsedProgram[0m
+[0m[[0m[31merror[0m] [0m[0m    printParsedProgram = false,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:30:5: not found: value printVMtrace[0m
+[0m[[0m[31merror[0m] [0m[0m    printVMtrace       = false,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:31:5: not found: value printVMfinal[0m
+[0m[[0m[31merror[0m] [0m[0m    printVMfinal       = false,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:32:5: not found: value printMergedTrace[0m
+[0m[[0m[31merror[0m] [0m[0m    printMergedTrace   = true,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:33:5: not found: value printBinary[0m
+[0m[[0m[31merror[0m] [0m[0m    printBinary        = false,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:34:24: reassignment to val[0m
+[0m[[0m[31merror[0m] [0m[0m    nopPadded          = nopPadded,[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:35:5: not found: value breakPoints[0m
+[0m[[0m[31merror[0m] [0m[0m    breakPoints        = Nil, // not implemented[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:36:5: not found: value testName[0m
+[0m[[0m[31merror[0m] [0m[0m    testName           = singleTest,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:37:5: not found: value maxSteps[0m
+[0m[[0m[31merror[0m] [0m[0m    maxSteps           = 15000)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:40:33: not found: type TestOptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val allTestOptions: String => TestOptions = name => TestOptions([0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:40:55: not found: value TestOptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val allTestOptions: String => TestOptions = name => TestOptions([0m
+[0m[[0m[31merror[0m] [0m[0m                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:41:5: not found: value printIfSuccessful[0m
+[0m[[0m[31merror[0m] [0m[0m    printIfSuccessful  = false,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:42:5: not found: value printErrors[0m
+[0m[[0m[31merror[0m] [0m[0m    printErrors        = false,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:43:5: not found: value printParsedProgram[0m
+[0m[[0m[31merror[0m] [0m[0m    printParsedProgram = false,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:44:5: not found: value printVMtrace[0m
+[0m[[0m[31merror[0m] [0m[0m    printVMtrace       = false,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:45:5: not found: value printVMfinal[0m
+[0m[[0m[31merror[0m] [0m[0m    printVMfinal       = false,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:46:5: not found: value printMergedTrace[0m
+[0m[[0m[31merror[0m] [0m[0m    printMergedTrace   = false,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:47:5: not found: value printBinary[0m
+[0m[[0m[31merror[0m] [0m[0m    printBinary        = false,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:48:24: reassignment to val[0m
+[0m[[0m[31merror[0m] [0m[0m    nopPadded          = nopPadded,[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:49:5: not found: value breakPoints[0m
+[0m[[0m[31merror[0m] [0m[0m    breakPoints        = Nil, // not implemented[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:50:5: not found: value testName[0m
+[0m[[0m[31merror[0m] [0m[0m    testName           = name,[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:51:5: not found: value maxSteps[0m
+[0m[[0m[31merror[0m] [0m[0m    maxSteps           = 15000)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:57:32: not found: type FlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass ProfileBranching extends FlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:57:46: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass ProfileBranching extends FlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:58:3: not found: value it[0m
+[0m[[0m[31merror[0m] [0m[0m  it should "profile some branches" in {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:59:5: not found: value BranchProfiler[0m
+[0m[[0m[31merror[0m] [0m[0m    BranchProfiler.profileBranching([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:61:14: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    ) should be(true)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:65:28: not found: type FlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass ProfileCache extends FlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:65:42: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass ProfileCache extends FlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:66:3: not found: value it[0m
+[0m[[0m[31merror[0m] [0m[0m  it should "profile a cache" in {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:67:5: not found: value CacheProfiler[0m
+[0m[[0m[31merror[0m] [0m[0m    CacheProfiler.profileCache([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:69:14: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    ) should be(true)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:73:26: not found: type FlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass SingleTest extends FlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:73:40: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass SingleTest extends FlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:74:3: not found: value it[0m
+[0m[[0m[31merror[0m] [0m[0m  it should "just werk" in {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:75:5: not found: value TestRunner[0m
+[0m[[0m[31merror[0m] [0m[0m    TestRunner.run(Manifest.singleTestOptions) should be(true)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:75:55: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    TestRunner.run(Manifest.singleTestOptions) should be(true)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:80:24: not found: type FlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass AllTests extends FlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:80:38: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass AllTests extends FlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:81:3: not found: value it[0m
+[0m[[0m[31merror[0m] [0m[0m  it should "just werk" in {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/fileUtils.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.iotesters._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/fileUtils.scala:8:8: not found: object cats[0m
+[0m[[0m[31merror[0m] [0m[0mimport cats.implicits._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/fileUtils.scala:9:8: not found: object cats[0m
+[0m[[0m[31merror[0m] [0m[0mimport cats._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/fileUtils.scala:10:8: not found: object cats[0m
+[0m[[0m[31merror[0m] [0m[0mimport cats.syntax._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/fileUtils.scala:11:8: not found: object cats[0m
+[0m[[0m[31merror[0m] [0m[0mimport cats.Applicative._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/fileUtils.scala:12:8: not found: object atto[0m
+[0m[[0m[31merror[0m] [0m[0mimport atto._, Atto._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/fileUtils.scala:12:16: not found: object Atto[0m
+[0m[[0m[31merror[0m] [0m[0mimport atto._, Atto._[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/fileUtils.scala:49:10: not found: value cats[0m
+[0m[[0m[31merror[0m] [0m[0m  import cats.implicits._[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/fileUtils.scala:16:41: not found: value sourcecode[0m
+[0m[[0m[31merror[0m] [0m[0m  def say(word: Any)(implicit filename: sourcecode.File, line: sourcecode.Line): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/fileUtils.scala:16:64: not found: value sourcecode[0m
+[0m[[0m[31merror[0m] [0m[0m  def say(word: Any)(implicit filename: sourcecode.File, line: sourcecode.Line): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:85:18: not found: value TestRunner[0m
+[0m[[0m[31merror[0m] [0m[0m      (testname, TestRunner.run(opts))[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:87:36: value _2 is not a member of Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m    if(werks.foldLeft(true)(_ && _._2))[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:90:41: value _2 is not a member of Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m      val success = werks.map(x => if(x._2) 1 else 0).sum[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:93:26: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (T1, T2)[0m
+[0m[[0m[31merror[0m] [0m[0m required: Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m      werks.foreach{ case(name, success) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:107:31: not found: type FlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass AllTestsWindows extends FlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:107:45: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass AllTestsWindows extends FlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:108:3: not found: value it[0m
+[0m[[0m[31merror[0m] [0m[0m  it should "just werk" in {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:112:18: not found: value TestRunner[0m
+[0m[[0m[31merror[0m] [0m[0m      (testname, TestRunner.run(opts))[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:114:36: value _2 is not a member of Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m    if(werks.foldLeft(true)(_ && _._2))[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:117:41: value _2 is not a member of Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m      val success = werks.map(x => if(x._2) 1 else 0).sum[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/Manifest.scala:120:26: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (T1, T2)[0m
+[0m[[0m[31merror[0m] [0m[0m required: Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m      werks.foreach{ case(name, success) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:4:8: not found: object Data[0m
+[0m[[0m[31merror[0m] [0m[0mimport Data._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:5:8: not found: object PrintUtils[0m
+[0m[[0m[31merror[0m] [0m[0mimport PrintUtils._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:18:12: not found: value cats[0m
+[0m[[0m[31merror[0m] [0m[0m    import cats._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:19:12: not found: value cats[0m
+[0m[[0m[31merror[0m] [0m[0m    import cats.implicits._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:23:47: value hs is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        say(s"at $index (${(4 + (index << 2)).hs})-> ${value.hs}, looking for ${key.hs}")[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:23:62: value hs is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        say(s"at $index (${(4 + (index << 2)).hs})-> ${value.hs}, looking for ${key.hs}")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:23:85: value hs is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        say(s"at $index (${(4 + (index << 2)).hs})-> ${value.hs}, looking for ${key.hs}")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:37:22: value hs is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m      s"${tree.value.hs} at ${tree.index.hs}\n$pads$ls\n$pads$rs"[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:37:42: value hs is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m      s"${tree.value.hs} at ${tree.index.hs}\n$pads$ls\n$pads$rs"[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:96:96: value hs is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    say(foldAnno(Some(annoTree._1)).zipWithIndex.map{case(m, idx) => s"#memset ${(4 + (idx*4)).hs}, ${m.hs}"}.mkStringN)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:96:105: value hs is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    say(foldAnno(Some(annoTree._1)).zipWithIndex.map{case(m, idx) => s"#memset ${(4 + (idx*4)).hs}, ${m.hs}"}.mkStringN)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:107:12: not found: value Ops[0m
+[0m[[0m[31merror[0m] [0m[0m    import Ops._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:112:18: not found: value VM[0m
+[0m[[0m[31merror[0m] [0m[0m      val init = VM.init[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:120:45: not found: type Op[0m
+[0m[[0m[31merror[0m] [0m[0m    def generateInstruction: (Int, (String, Op)) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:121:24: value shuffle is not a member of List[Int][0m
+[0m[[0m[31merror[0m] [0m[0m      val rd  = active.shuffle(r).head[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:122:24: value shuffle is not a member of List[Int][0m
+[0m[[0m[31merror[0m] [0m[0m      val rs1 = active.shuffle(r).head[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:123:24: value shuffle is not a member of List[Int][0m
+[0m[[0m[31merror[0m] [0m[0m      val rs2 = active.shuffle(r).head[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:128:18: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        (s"add ${Reg(rd).show}, ${Reg(rs1).show}, ${Reg(rs2).show}", Arith.add(rd, rs1, rs2)),[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:128:35: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        (s"add ${Reg(rd).show}, ${Reg(rs1).show}, ${Reg(rs2).show}", Arith.add(rd, rs1, rs2)),[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:128:53: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        (s"add ${Reg(rd).show}, ${Reg(rs1).show}, ${Reg(rs2).show}", Arith.add(rd, rs1, rs2)),[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:128:70: not found: value Arith[0m
+[0m[[0m[31merror[0m] [0m[0m        (s"add ${Reg(rd).show}, ${Reg(rs1).show}, ${Reg(rs2).show}", Arith.add(rd, rs1, rs2)),[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:129:18: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        (s"sub ${Reg(rd).show}, ${Reg(rs1).show}, ${Reg(rs2).show}", Arith.sub(rd, rs1, rs2)),[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:129:35: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        (s"sub ${Reg(rd).show}, ${Reg(rs1).show}, ${Reg(rs2).show}", Arith.sub(rd, rs1, rs2)),[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:129:53: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        (s"sub ${Reg(rd).show}, ${Reg(rs1).show}, ${Reg(rs2).show}", Arith.sub(rd, rs1, rs2)),[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:129:70: not found: value Arith[0m
+[0m[[0m[31merror[0m] [0m[0m        (s"sub ${Reg(rd).show}, ${Reg(rs1).show}, ${Reg(rs2).show}", Arith.sub(rd, rs1, rs2)),[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lillemakken/RISCV-FiveStage/src/test/scala/TestUtils.scala:130:17: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m        (s"or ${Reg(rd).show}, ${Reg(rs1).show}, ${Reg(rs2).show}", Arith.or(rd, rs1, rs2)),[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m209 errors found[0m

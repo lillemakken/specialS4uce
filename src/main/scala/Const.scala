@@ -5,7 +5,6 @@ import chisel3.util._
 import chisel3.core.Input
 import chisel3.iotesters.PeekPokeTester
 
-
 // From RISC-V reference card
 object ALUOps {
 

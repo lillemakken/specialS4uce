@@ -3,6 +3,7 @@ import chisel3._
 import chisel3.core.Wire
 import chisel3.util.{ BitPat, Cat }
 
+
 class Instruction extends Bundle(){
   val instruction = UInt(32.W)
 
@@ -35,16 +36,6 @@ object Instruction {
 }
 
 
-class DecodeSignals extends Bundle() {
-  val controlSignals = new ControlSignals
-  val branchType     = UInt(3.W)
-  val op1Select      = UInt(1.W)
-  val op2Select      = UInt(1.W)
-  val immType        = UInt(3.W)
-  val ALUOp          = UInt(4.W)
-}
-
-
 class ControlSignals extends Bundle(){
   val memToReg   = Bool()
   val regWrite   = Bool()
@@ -65,6 +56,7 @@ object ControlSignals {
     b.branch     := false.B
     b.jump       := false.B
     b
+
   }
 }
 
@@ -112,4 +104,6 @@ object ImmFormat {
   val JTYPE  = 4.asUInt(3.W)
   val SHAMT  = 5.asUInt(3.W)
   val DC     = 0.asUInt(3.W)
+  
+    
 }
